@@ -12,7 +12,7 @@ caniuse() {
         xdg-open ${domain}
     else
         for term in "$@"; do
-            query=$(python -c "import sys, urllib as ul; print ul.quote('${term}');")
+            query=$(python -c "import sys, urllib.parse as ul; print(ul.quote('${term}'));")
             xdg-open "${domain}?search=${query}"
         done
     fi
