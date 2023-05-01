@@ -22,19 +22,19 @@ Inspried by Michael Wales' [Plugin](https://github.com/walesmd/caniuse.plugin.zs
 
 ## Usage
 
-To launch the caniuse website in your default browser, simply type: `caniuse` in the terminal.
+To launch the caniuse website in your default browser, simply type: `caniuse` or `cu` in the terminal.
 
 To search for a specific feature, pass the feature name as an argument:
 
-` caniuse <feature>`
+`caniuse <feature>`
 
-For example: `$ caniuse gap`
+For example: &nbsp;`$ caniuse gap`
 
 You can search for multiple features at once by passing multiple arguments:
 
 `caniuse <feature1> <feature2> <feature3>`
 
-For example: `$ caniuse gap avif webp`
+For example: &nbsp;`$ caniuse gap avif webp`
 
 This will open three different tabs with each of the features.
 
@@ -42,13 +42,11 @@ If you want to search for a feature that has multiple words in the name, enclose
 
 `caniuse "<feature name>"` &nbsp; or &nbsp; `caniuse <feature-name>"`
 
-For example:
-
-` $ caniuse "css container queries style"`
+For example: &nbsp;`$ caniuse "css container queries style"`
 
 Note: You can use the alias `cu` instead of typing `caniuse` in the terminal.
 
-For example: `$ cu gap`
+For example: &nbsp;`$ cu border-radius`
 
 You can change the alias in the caniuse.plugin.zsh file by typing this in the terminal:
 
